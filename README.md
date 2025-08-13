@@ -88,8 +88,8 @@ Try it out: `python app.py` → http://localhost:5000
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/python-learning-hub.git
-cd python-learning-hub
+git clone https://github.com/null8878/-python-learning-hub.git
+cd -python-learning-hub
 
 # Create virtual environment
 python3 -m venv venv

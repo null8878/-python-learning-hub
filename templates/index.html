@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Python Learning Hub</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.24.1/themes/prism-tomorrow.min.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>🐍 Python Learning Hub</h1>
+        <p>Master Python, Databases, APIs, and More!</p>
+    </header>
+
+    <main>
+        <div class="modules-grid">
+            <div class="module-card" onclick="location.href='/module/basics'">
+                <h3>Python Basics</h3>
+                <p>Variables, data types, control structures, functions</p>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 0%"></div>
+                </div>
+            </div>
+
+            <div class="module-card" onclick="location.href='/module/oop'">
+                <h3>Object-Oriented Programming</h3>
+                <p>Classes, objects, inheritance, polymorphism</p>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 0%"></div>
+                </div>
+            </div>
+
+            <div class="module-card" onclick="location.href='/module/databases'">
+                <h3>Database Programming</h3>
+                <p>SQLite, PostgreSQL, ORMs, database design</p>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 0%"></div>
+                </div>
+            </div>
+
+            <div class="module-card" onclick="location.href='/module/apis'">
+                <h3>API Development</h3>
+                <p>REST APIs, FastAPI, Flask, authentication</p>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 0%"></div>
+                </div>
+            </div>
+
+            <div class="module-card" onclick="location.href='/module/web-scraping'">
+                <h3>Web Scraping & Data</h3>
+                <p>BeautifulSoup, requests, pandas, data processing</p>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 0%"></div>
+                </div>
+            </div>
+
+            <div class="module-card" onclick="location.href='/module/testing'">
+                <h3>Testing & Debugging</h3>
+                <p>Unit tests, pytest, debugging techniques</p>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 0%"></div>
+                </div>
+            </div>
+
+            <div class="module-card" onclick="location.href='/module/deployment'">
+                <h3>Deployment & DevOps</h3>
+                <p>Docker, cloud deployment, CI/CD pipelines</p>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 0%"></div>
+                </div>
+            </div>
+
+            <div class="module-card" onclick="location.href='/module/projects'">
+                <h3>Real-World Projects</h3>
+                <p>Build complete applications from scratch</p>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 0%"></div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="{{ url_for('static', filename='js/main.js') }}"></script>
+</body>
+</html>

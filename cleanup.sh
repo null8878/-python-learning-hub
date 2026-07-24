@@ -51,7 +51,7 @@ else
 fi
 
 # 3. Remove project directory
-PROJECT_DIR="/Users/edwardclark/python-learning-app"
+PROJECT_DIR="$(pwd)"
 if [ -d "$PROJECT_DIR" ]; then
     echo "📁 Removing project directory: $PROJECT_DIR"
     rm -rf "$PROJECT_DIR"

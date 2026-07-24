@@ -8,7 +8,7 @@ This guide helps you prepare the Python Learning Hub for portfolio presentation 
 
 ```bash
 # Navigate to project directory
-cd /Users/edwardclark/python-learning-app
+cd $(pwd)
 
 # Initialize git repository (if not already done)
 git init
